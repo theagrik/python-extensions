@@ -20,5 +20,5 @@ def removeEmptyFilesTree(directory):
                 os.remove(path)
                 #print("[DELETE]: " + directory)
             #elif os.path.getsize(path) > 0: print("[HANDLE]: File isn't empty, skipping")
-    else:
+    #else:
         #print("[HANDLE]: Folder is empty")
