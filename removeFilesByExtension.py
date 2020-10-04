@@ -21,5 +21,5 @@ def removeFilesByExtension(directory, extension):
                 os.remove(path)
                 #print("[DELETE]: " + directory)
             #elif os.path.getsize(path) > 0: print("[HANDLE]: Incorrect file, skipping")
-    else:
+    #else:
         #print("[HANDLE]: Folder is empty")
